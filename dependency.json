@@ -1,0 +1,27 @@
+{
+ "azure_module_catalog": {
+	"keyvault": {
+        "Resource_Dependency":{
+		"dependent_modules_list": [
+			"resource-group"
+        ]
+    }
+    },
+	"keyvault-key": {
+		"Resource_Dependency":{
+		"dependent_modules_list": [
+			"resource-group",
+      "keyvault"
+        ]
+    }
+	},
+	"modulename4": {
+		"Resource_Dependency":{
+		"dependent_modules_list": [
+			"modulename5",
+			"modulename6"
+        ]
+    }
+	}
+	}
+}
