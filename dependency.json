@@ -3,7 +3,8 @@
 	"keyvault": {
         "Resource_Dependency":{
 		"dependent_modules_list": [
-			"resource-group"
+			"resource-group",
+			"managedidentity"
         ]
     }
     },
